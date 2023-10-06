@@ -1,0 +1,15 @@
+---
+spring:
+  h2:
+    console:
+      enabled: false
+
+  datasource:
+    url: jdbc:mysql://c0867033-ashwinrajput-clouddemo-server.mysql.database.azure.com:3306/c0867033-ashwinrajput-clouddemo-database
+    username: jeyewhnakp
+    password: Root*9966
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    database: mysql
+    show-sql: false
