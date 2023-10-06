@@ -10,9 +10,4 @@ public class IndexController {
     public String index() {
         return "index";
     }
-
-    @RequestMapping({"/name"})
-    public String name() {
-        return "name";
-    }
 }
