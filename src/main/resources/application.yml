@@ -13,3 +13,6 @@ spring:
     database-platform: org.hibernate.dialect.MySQLDialect
     database: mysql
     show-sql: false
+
+server:
+  port: 80
